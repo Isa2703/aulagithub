@@ -1,4 +1,12 @@
+*{
+margin: 0%;
+padding: 0%;
+
+}
+
 .cabecalho{
 
-    background-color: rgb(168, 101, 223);
+    background-color: rgb(197, 150, 238);
+    color: rgb(0, 0, 0);
+    display: flex;
 }
