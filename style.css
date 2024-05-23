@@ -1,21 +1,35 @@
-*{
-margin: 0%;
-padding: 0%;
+* {
+    margin: 0%;
+    padding: 0%;
 
 }
 
-.cabecalho{
-    background-color: rgb(197, 150, 238);
-    color: rgb(0, 0, 0);
+.cabecalho {
+    background-color: #49005e;
+    color: rgb(255, 255, 255);
     display: flex;
     justify-content: space-around;
-    align-items:center;
-    padding: 24px 0;
-    
-    
+    align-items:normal
+
+
 }
 
-.cabecalho-div{
+.cabecalho-lista {
+display: center;
+width: 70%
+}
 
-    
+.informaçãoes{
+
+
+
+}
+
+.cabecalho-imagem{
+    width: 30%;
+}
+
+.cabecalho-item{
+    width: 30%;
+
 }
