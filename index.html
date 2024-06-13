@@ -6,29 +6,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Palavras interressantes</title>
     <link rel="stylesheet" href="style.css">
+    <script src="index.js"></script>
 </head>
 
 <body>
-    <header class="cabecalho">
-        <div class="cabecalho div">
-            <img class="cabecalho-imagem" src="Texto do seu parágrafo_20240508_223525_0000.png" alt="drinks space-cabecalho">
-            <h1 class="cabecalho-titulo"></h1>
-        </div>
-        <ul class="cabecalho-lista">
-            <li class="cabecalho-item">menu</li>
-            <li class="cabecalho-item">pesquise aqui</li>
-            <li class="cabecalho-item"> monte o seu</li>
-        </ul>
-<body>
-    <header class="fundo"> 
-        <div class="fundo div">
-          <img class="fundo" src="drinks_sem_lcool" alt="drinks_sem_lcool">
-          <h1 class="fundo-foto"></h1>
-        </div>
 
+    <div class="fundo">
+        <h1>Login</h1>
+        <div class="user">
+            <label for="name">Usúario:</label>
+            <input type="text" id="name" placeholder="Digite seu Usúario" required class="escrita">
+        </div>
+        <div class="remeber">
+            <input type="checkbox" id="lembrar">
+            <label for="lembrar">Manter Conectado</label>
+        </div>
+        <div class="senha">
+            <label for="senha">Senha:</label>
+            <input type="password" id="senha" placeholder="Digite sua senha" required class="escrita">
+        </div>
+        <div class="forgot">
+            <p>Esqueceu sua senha? <a href="#">Recupere sua senha</a></p>
+        </div>
+        <div class="btn">
+            <button id="btn" onclick="logado()"><a href="#">Acessar</a></button>
+        </div>
+        <div class="create">
+            <p>Não possui uma conta? <a href="#">Crie uma</a></p>
+        </div>
+    </div>
 
 </body>
-</header>
 
 
 
